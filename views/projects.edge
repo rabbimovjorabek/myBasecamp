@@ -1,0 +1,36 @@
+@layouts("layouts.header")
+
+@section("content")
+    
+    <main>
+        <h1>Projects</h1>
+        <div class="project_menu">
+            <a href="#"><i class="bi bi-asterisk"></i> All Projects</a>
+            <a href="#"><i class="bi bi-pencil"></i> Created by me</a>
+            <a href="#"><i class="bi bi-people"></i> Shared with me</a>
+        </div>
+        <div class="project_items">
+            <div class="project_item">
+                <div class="project_item-part item_top">
+                    <div class="item_option">
+                        <p class="item_name">Project Name</p>
+                        <a href="#"><i class="bi bi-gear"></i>
+                    </div>
+                    <p class="item_username"><i class="bi bi-pencil"></i> UserName</p>
+                </div>
+                <div class="project_item-part item_center">
+                    <p class="item_descr">Project_description</p>
+                </div>
+                <div class="project_item-part item_bottom">
+                    <div class="item_member">
+                        <i class="bi bi-people"></i><span>1</span>
+                        <i class="bi bi-chat-dots"></i><span>0</span>
+                    </div>
+                    <i class="bi bi-trash3"></i>
+                </div>
+            </div>   
+ 
+        </div>   
+    </main>
+
+@endsection

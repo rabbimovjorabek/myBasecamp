@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+main{
+    text-align:center;
+
+}
+.collaborate{
+    font-family: 'Impact', 'Charcoal', sans-serif;
+    /* font-weight: 900; */
+    font-size:80px;
+    font-weight:600;
+}
+.info{
+    font-size:20px;
+}
+.login_option{
+    display: flex;
+    justify-content:center;
+}
+.login_option a{
+    border:solid #17a2b8;
+    border-radius:5px;
+    font-size:18px;
+    color:white;
+    margin:15px;
+    padding:10px;
+    background-color:#17a2b8;
+}
+
+
+/* ========== SIGN UP styles =========== */
+main {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.myform{
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+   
+}
+    
+
+
+ 
+.form-group{
+    width:100%;
+    
+    margin:auto;
+    text-align:left;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.form-group label{
+    margin:10px 0px;
+    font-size:20px;
+
+
+}
+
+.form-group  input{
+    padding-left:5px;
+    width:400px;
+    height:30px;
+}
+.signUp{
+    color:white;
+    padding: 10px;
+    background-color:#17a2b8;
+    border:solid #17a2b8;
+    border-radius:3px;
+    margin:15px 0;
+    width:100px;
+}
+
+
+
+
+/* ============== LOGIN styles ============= */
+
+
